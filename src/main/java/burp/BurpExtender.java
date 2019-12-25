@@ -44,10 +44,17 @@ public class BurpExtender  implements IBurpExtender, IScannerCheck{
     public List<IScanIssue> doPassiveScan(IHttpRequestResponse baseRequestResponse) {
         List<IScanIssue> issues = new ArrayList<IScanIssue>();
         List<int[]> matches;
+        byte[] response;
+
+        response = baseRequestResponse.getResponse();
+        int start = helps.analyzeResponse(baseRequestResponse.getResponse()).getBodyOffset();
+        byte[] body = new byte[response.length - start];
+        System.arraycopy(response, start, body, 0, response.length - start);
+        sout.println(helps.bytesToString(body));
         for(String keyword : KEYWORDS){
-            matches = keywordMatch(baseRequestResponse.getResponse(), helps.stringToBytes(keyword));
+            matches = keywordMatch(body, helps.stringToBytes(keyword));
             if(matches.size() > 0){
-                sout.println(keyword);
+                sout.println(helps.bytesToString(body));
                 issues.add(
                         new MessageFindIssue(
                                 baseRequestResponse.getHttpService(),
