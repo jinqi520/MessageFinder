@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf562106-9de9-44a1-aeda-3df386bb9fb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/target/Burp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Burp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/burp/BurpExtender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/burp/BurpExtender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/secret-keywords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/secret-keywords.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +83,7 @@
       <updated>1577158896869</updated>
       <workItem from="1577158903864" duration="2416000" />
       <workItem from="1577173635351" duration="1085000" />
-      <workItem from="1577249091675" duration="13279000" />
+      <workItem from="1577249091675" duration="13398000" />
     </task>
     <servers />
   </component>
