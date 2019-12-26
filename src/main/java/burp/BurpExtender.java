@@ -46,13 +46,13 @@ public class BurpExtender  implements IBurpExtender, IScannerCheck{
         List<int[]> matches;
         byte[] response;
 
+        // 这里只去response包中的body部分
         response = baseRequestResponse.getResponse();
         int start = helps.analyzeResponse(baseRequestResponse.getResponse()).getBodyOffset();
         byte[] body = new byte[response.length - start];
         System.arraycopy(response, start, body, 0, response.length - start);
-        sout.println(helps.bytesToString(body));
         for(String keyword : KEYWORDS){
-            matches = keywordMatch(body, helps.stringToBytes(keyword));
+            matches = keywordMatch(body, helps.stringToBytes(keyword), start);
             if(matches.size() > 0){
                 sout.println(helps.bytesToString(body));
                 issues.add(
@@ -84,7 +84,7 @@ public class BurpExtender  implements IBurpExtender, IScannerCheck{
     }
 
 
-    public List<int[]> keywordMatch(byte[] response, byte[] match){
+    public List<int[]> keywordMatch(byte[] response, byte[] match, int offset){
         List<int[]> matchs = new ArrayList<int[]>();
         int start =0;
         while(start < response.length){
@@ -92,7 +92,7 @@ public class BurpExtender  implements IBurpExtender, IScannerCheck{
             if (start == -1){
                 break;
             }
-            matchs.add(new int[]{start,start+match.length});
+            matchs.add(new int[]{start + offset,start+match.length + offset});
             start = start + match.length;
         }
         return matchs;
