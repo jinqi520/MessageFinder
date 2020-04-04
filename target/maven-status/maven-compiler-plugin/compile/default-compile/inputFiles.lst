@@ -17,6 +17,7 @@
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/BurpExtender.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/ITextEditor.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IScopeChangeListener.java
+/Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/JsonpIssue.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IResponseInfo.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IContextMenuFactory.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IMessageEditor.java
@@ -35,6 +36,7 @@
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IScannerInsertionPointProvider.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IContextMenuInvocation.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IIntruderPayloadProcessor.java
+/Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/Config.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IParameter.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IScannerCheck.java
 /Users/liuqingsong/jinqi/burp_extender/MessageFind/src/main/java/burp/IBurpExtenderCallbacks.java

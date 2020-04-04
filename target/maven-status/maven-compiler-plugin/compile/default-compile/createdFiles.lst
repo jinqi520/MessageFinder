@@ -35,6 +35,7 @@ burp/IBurpCollaboratorClientContext.class
 burp/IScopeChangeListener.class
 burp/IIntruderAttack.class
 burp/IMessageEditor.class
+burp/Config.class
 burp/IResponseKeywords.class
 burp/ITextEditor.class
 burp/IInterceptedProxyMessage.class
@@ -42,3 +43,4 @@ burp/IIntruderPayloadProcessor.class
 burp/IHttpRequestResponsePersisted.class
 burp/ITab.class
 burp/IContextMenuInvocation.class
+burp/JsonpIssue.class

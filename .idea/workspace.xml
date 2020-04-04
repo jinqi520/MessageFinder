@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf562106-9de9-44a1-aeda-3df386bb9fb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/burp/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/burp/JsonpIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/burp/BurpExtender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/burp/BurpExtender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/burp/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/burp/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/secret-keywords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/secret-keywords.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Burp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Burp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/burp/BurpExtender$MessageFindIssue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/burp/BurpExtender$MessageFindIssue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/burp/BurpExtender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/burp/BurpExtender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/burp/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/burp/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/secret-keywords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/secret-keywords.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,7 +102,17 @@
       <updated>1577158896869</updated>
       <workItem from="1577158903864" duration="2416000" />
       <workItem from="1577173635351" duration="1085000" />
-      <workItem from="1577249091675" duration="13398000" />
+      <workItem from="1577249091675" duration="13722000" />
+      <workItem from="1577673871283" duration="45000" />
+      <workItem from="1577695854040" duration="10536000" />
+      <workItem from="1577936749536" duration="1135000" />
+      <workItem from="1578386303469" duration="470000" />
+      <workItem from="1579141198184" duration="12000" />
+      <workItem from="1580884772920" duration="10208000" />
+      <workItem from="1581559746410" duration="13000" />
+      <workItem from="1582270591739" duration="1045000" />
+      <workItem from="1583826523443" duration="549000" />
+      <workItem from="1584330816306" duration="1000" />
     </task>
     <servers />
   </component>
@@ -95,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

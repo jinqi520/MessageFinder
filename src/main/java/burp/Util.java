@@ -4,6 +4,8 @@ package burp;
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Util {
     public static String getMD5Str(String str) {
@@ -34,5 +36,15 @@ public class Util {
         }
 
         return md5StrBuff.toString();
+    }
+
+    public static boolean isMathch(String regx,String str){
+        Pattern pat = Pattern.compile("[\\w]+[\\.]("+regx+")",Pattern.CASE_INSENSITIVE);//正则判断
+        Matcher mc= pat.matcher(str);//条件匹配
+        if(mc.find()){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
